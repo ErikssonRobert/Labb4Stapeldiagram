@@ -13,6 +13,7 @@
 		7281A2AC202E0738005C4FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7281A2AB202E0738005C4FAB /* Assets.xcassets */; };
 		7281A2AF202E0738005C4FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7281A2AD202E0738005C4FAB /* LaunchScreen.storyboard */; };
 		7281A2B2202E0738005C4FAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7281A2B1202E0738005C4FAB /* main.m */; };
+		7281A2BA202E0778005C4FAB /* DiagramView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7281A2B9202E0778005C4FAB /* DiagramView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		7281A2AE202E0738005C4FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7281A2B0202E0738005C4FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7281A2B1202E0738005C4FAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7281A2B8202E0778005C4FAB /* DiagramView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiagramView.h; sourceTree = "<group>"; };
+		7281A2B9202E0778005C4FAB /* DiagramView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiagramView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				7281A2AD202E0738005C4FAB /* LaunchScreen.storyboard */,
 				7281A2B0202E0738005C4FAB /* Info.plist */,
 				7281A2B1202E0738005C4FAB /* main.m */,
+				7281A2B8202E0778005C4FAB /* DiagramView.h */,
+				7281A2B9202E0778005C4FAB /* DiagramView.m */,
 			);
 			path = Labb4Stapeldiagram;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7281A2BA202E0778005C4FAB /* DiagramView.m in Sources */,
 				7281A2A7202E0738005C4FAB /* ViewController.m in Sources */,
 				7281A2B2202E0738005C4FAB /* main.m in Sources */,
 				7281A2A4202E0738005C4FAB /* AppDelegate.m in Sources */,
